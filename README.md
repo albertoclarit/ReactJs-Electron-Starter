@@ -7,6 +7,7 @@
 3. Sass installed using `gem install sass`
 4. NodeJs 4.1.1
 
+**for OSX users, No 1 and 2 are probably installed already
 ## Installation
 
 
@@ -39,3 +40,4 @@ $ npm start
 
 ### Disclaimer
 The ReactJS files layout is based on a yo generator [Generate-React-Webpack](https://github.com/newtriks/generator-react-webpack)
+
