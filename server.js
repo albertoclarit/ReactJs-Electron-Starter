@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
 var open = require('open');
+require('shelljs/global');
 
 new WebpackDevServer(webpack(config), config.devServer)
 .listen(config.port, 'localhost', function(err) {
@@ -14,4 +15,10 @@ new WebpackDevServer(webpack(config), config.devServer)
  // open('http://localhost:' + config.port + '/webpack-dev-server/');
 
     console.log('Opening Electron app dev mode...');
+
+    exec('electron main-dev.js', function(status, output) {
+     // console.log('Exit status:', status);
+     // console.log('Program output:', output);
+    });
+
 });

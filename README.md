@@ -5,7 +5,7 @@
 1. [Python 2.7](https://www.python.org/downloads/) (Not tried on Python 3) - make sure it is accessible in path
 2. [Ruby](https://www.ruby-lang.org/en/)
 3. Sass installed using `gem install sass`
-
+4. NodeJs 4.1.1
 
 ## Installation
 
@@ -22,6 +22,13 @@ $ npm start
 ```
 
 
+## Features
+
+1. Webpack and Webpackdev server
+2. ReactJs 0.14
+3. Babel 6+
+4. Saas
+ 
 
 ## Commands
 

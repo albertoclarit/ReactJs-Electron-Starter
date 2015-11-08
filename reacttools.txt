@@ -3,3 +3,6 @@ run in console
 require('remote').require('browser-window').addDevToolsExtension('/some-directory/react-devtools/shells/chrome');
 
 require('remote').require('browser-window').removeDevToolsExtension('React Developer Tools');
+
+
+https://github.com/atom/electron/blob/master/docs/tutorial/devtools-extension.md
