@@ -25,10 +25,10 @@ app.on('ready', function() {
 
   mainWindow.maximize();
   // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/src/index.html');
+  mainWindow.loadUrl('http://localhost:8000');
 
   // Open the DevTools.
- // mainWindow.openDevTools();
+   mainWindow.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {

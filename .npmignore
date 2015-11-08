@@ -28,13 +28,3 @@ node_modules
 
 # Bower
 bower_components/
-
-# Intellij
-######################
-.idea/**
-*.iml
-*.iws
-*.ipr
-*.ids
-/dist
-*.orig
