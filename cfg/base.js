@@ -2,7 +2,7 @@ var path = require('path');
 
 var port = 8000;
 var srcPath = path.join(__dirname, '/../src');
-var publicPath = '/assets/';
+var publicPath = 'assets/';
 
 module.exports = {
   port: port,
@@ -59,8 +59,7 @@ module.exports = {
       {
         test: /\.styl/,
         loader: 'style-loader!css-loader!stylus-loader'
-      },
-      {
+      },{
         test: /\.(png|jpg|gif|woff|woff2)$/,
         loader: 'url-loader?limit=8192'
       }

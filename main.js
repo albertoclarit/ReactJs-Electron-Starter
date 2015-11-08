@@ -12,9 +12,9 @@ var mainWindow = null;
 app.on('window-all-closed', function() {
   // On OS X it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform != 'darwin') {
+  //if (process.platform != 'darwin') {
     app.quit();
-  }
+  //}
 });
 
 // This method will be called when Electron has finished
@@ -25,7 +25,7 @@ app.on('ready', function() {
 
   mainWindow.maximize();
   // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/src/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/index.html');
 
   // Open the DevTools.
  // mainWindow.openDevTools();

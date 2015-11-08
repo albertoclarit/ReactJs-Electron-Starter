@@ -14,7 +14,8 @@
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
     "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./dist",
-    "clean": "rimraf dist/*",
+    "clean": "rimraf dist/* deployments/*",
+    "generateapp": "node generateapp.js",
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags"
@@ -51,6 +52,7 @@
     "karma-webpack": "^1.7.0",
     "minimist": "^1.2.0",
     "mocha": "^2.2.5",
+    "ncp": "^2.0.0",
     "null-loader": "^0.1.1",
     "open": "0.0.5",
     "phantomjs": "^1.9.18",
