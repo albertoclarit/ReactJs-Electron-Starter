@@ -34,3 +34,4 @@ $ npm start
 
 
 1. `npm start` - runs the electron app that is served by webpackdevserver
+2. `npm generateapp` - generates executable distributable file in the deployments folder (either osx or windows_linux)
