@@ -1,30 +1,29 @@
-# electron-quick-start
+# ReactJS-Electron-Starter
 
-**Clone and run for a quick way to see an Electron in action.**
+**Before anything else, make sure you have these dependencies installed.**
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+1. [Python 2.7](https://www.python.org/downloads/) (Not tried on Python 3) - make sure it is accessible in path
+2. [Ruby](https://www.ruby-lang.org/en/)
+3. Sass installed using `gem install sass`
 
-A basic Electron application needs just these files:
 
-- `index.html` - A web page to render.
-- `main.js` - Starts the app and creates a browser window to render HTML.
-- `package.json` - Points to the app's main file and lists its details and dependencies.
+## Installation
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/atom/electron-quick-start
+$ git clone https://github.com/albertoclarit/ReactJs-Electron-Starter.git
 # Go into the repository
-$ cd electron-quick-start
-# Install dependencies and run the app
-$ npm install && npm start
+$ cd ReactJs-Electron-Starter
+# Install dependencies 
+$ npm install
+# Run the app in debug mode
+$ npm start
 ```
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
-#### License [MIT](LICENSE.md)
+
+## Commands
+
+
+1. `npm start` - runs the electron app that is served by webpackdevserver
