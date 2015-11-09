@@ -1,6 +1,6 @@
 {
   "generator-react-webpack": {
-    "appName": "integratedPoliceClearance",
+    "appName": "reactjsElectronStarter",
     "style": "sass"
   }
 }
