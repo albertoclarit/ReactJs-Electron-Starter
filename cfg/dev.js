@@ -8,6 +8,9 @@ var baseConfig = require('./base');
 var BowerWebpackPlugin = require('bower-webpack-plugin');
 
 var config = _.merge({
+  output:{
+    publicPath: '/assets/'
+  },
   entry: [
     'webpack-dev-server/client?http://127.0.0.1:8000',
     'webpack/hot/only-dev-server',
